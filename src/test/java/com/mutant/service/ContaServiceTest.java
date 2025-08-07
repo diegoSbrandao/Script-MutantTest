@@ -87,14 +87,4 @@ class ContaServiceTest {
 
         assertEquals("Conta não encontrada", ex.getMessage());
     }
-
-//    @Test
-//    void deveVerificarRetornoSalvarERetornar() {
-//        Conta conta = new Conta();
-//        conta.setId(1L);
-//        when(contaRepository.save(conta)).thenReturn(conta);
-//
-//        var result = contaService.consultar(1L);
-//        // chamada direta é impossível, mas já está coberta pelos outros testes
-//    }
 }
